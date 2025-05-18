@@ -1,7 +1,7 @@
 /**
  * A circle implementation of Shape
  */
-public class Circle extends Shape{
+class Circle extends Shape{
 	public void setLength(double length) {
 		this.length = length;
 	}
