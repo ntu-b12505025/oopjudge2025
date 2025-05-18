@@ -1,7 +1,10 @@
 /**
  * A circle implementation of Shape
  */
-class Circle extends Shape{
+public class Circle extends Shape{
+	public Circle(double length) {
+		super(length);
+	}
 	public void setLength(double length) {
 		this.length = length;
 	}

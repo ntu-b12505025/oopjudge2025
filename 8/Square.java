@@ -1,7 +1,10 @@
 /**
  * A square implementation of Shape
  */
-class Square extends Shape {
+public class Square extends Shape {
+	public Square(double length) {
+		super(length);
+	}
 	public void setLength(double length) {
 		this.length = length;
 	}

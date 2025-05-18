@@ -9,10 +9,17 @@ public abstract class Shape {
 	 */
 	protected double length;
 	/**
+	 * Constructor to initialize the shape with a given length
+	 * @param length the characteristic length
+	 */
+	public Shape(double length) {
+    	this.length = length;
+    }
+	/**
 	 * Sets the characteristic length of the shape
 	 * @param length the characteristic length to set
 	 */
-    public abstract void setLength(double length);
+	public abstract void setLength(double length);
     /**
      * Calculates the area of the shape
      * @return the area of the shape

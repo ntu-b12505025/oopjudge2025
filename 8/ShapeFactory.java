@@ -20,13 +20,13 @@ public class ShapeFactory {
 		Shape shape = null;
 		switch (shapeType) {
 			case Triangle:
-				shape = new Triangle();
+				shape = new Triangle(length);
 				break;
 			case Square: 
-				shape = new Square();
+				shape = new Square(length);
 				break;
 			case Circle:
-				shape = new Circle();
+				shape = new Circle(length);
 				break;
 		}
 		if (shape != null) {

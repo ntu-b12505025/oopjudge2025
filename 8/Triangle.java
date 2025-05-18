@@ -1,7 +1,10 @@
 /**
  * A triangle implementation of Shape
  */
-class Triangle extends Shape{
+public class Triangle extends Shape{
+	public Triangle(double length) {
+		super(length);
+	}
 	public void setLength(double length) {
 		this.length = length;
 	}
